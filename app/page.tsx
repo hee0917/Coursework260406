@@ -27,7 +27,7 @@ export default function OSCSafetyApp() {
     <div className="min-h-screen bg-gray-50 p-4 md:p-8">
       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl overflow-hidden border border-gray-200">
         <div className="bg-orange-500 p-6 text-white text-center">
-          <h1 className="text-2xl font-bold">ESCO Lab: OSC Safety Platform</h1>
+          <h1 className="text-2xl font-bold">OSC Safety Platform</h1>
           <p className="text-sm opacity-90">OSC 건설현장 지능형 안전점검 시스템</p>
         </div>
 
@@ -61,10 +61,6 @@ export default function OSCSafetyApp() {
               {aiAdvice}
             </p>
           </div>
-
-          <button className="w-full bg-gray-800 text-white py-3 rounded-xl font-bold hover:bg-black transition" onClick={() => window.print()}>
-            결과 리포트 출력 (PDF)
-          </button>
         </div>
       </div>
     </div>
